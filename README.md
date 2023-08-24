@@ -15,7 +15,7 @@ Este repositorio contiene los ejercicios a presentar en la materia de PNL de la 
 
 En este ejercicio se implementa la vectorizacion de documentos (Word2Vect) utilizando la libreria NumPy. 
 
-Se Obtuvimos vocabulario de un Corpus tipo txt
+Se Obtuvimos vocabulario de un Corpus tipo np.array
 
 Se realizó la codificación de la lista de textos usando One-hot Encoding.
 
