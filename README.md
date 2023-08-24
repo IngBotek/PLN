@@ -38,7 +38,7 @@ Transformaciones mediante Bag of Words y One-Hot Encoding: Se exploran técnicas
 
 Desarrollo de un modelo DNN con Keras: Se crea un modelo de red neuronal profunda (DNN) utilizando la biblioteca Keras. Este modelo se entrena para predecir la clase de pregunta realizada por el usuario, lo que permite al bot seleccionar la respuesta más adecuada.
 
-Resultados del entrenamiento de la red neuronal: Se muestra una imagen que presenta los resultados obtenidos durante el proceso de entrenamiento de la red neuronal. Esto incluye métricas de evaluación y gráficos que ilustran el rendimiento del modelo a medida que se entrena.
+Resultados del entrenamiento de la red neuronal: Se muestra una imagen que presenta los resultados obtenidos durante el proceso de entrenamiento de la red neuronal accuracy vs epochs y al final se ejecuta una conversación con el modelo.
 
 En resumen, este ejercicio se enfoca en la implementación de un bot capaz de simular a un usuario una conversación o suerte de ping pong de preguntas y respuestas.
 
@@ -50,11 +50,11 @@ Preprocesamiento de datos: Se realiza un proceso de preprocesamiento en el corpu
 
 Creación de vectores con Word2Vec de Gensim: Se utiliza el algoritmo Word2Vec de Gensim para generar vectores de palabras que representan las relaciones semánticas entre ellas en el corpus. Esto permite capturar significados contextuales y similitudes entre palabras.
 
-Ensayo del modelo utilizando most_similar: Se explora el uso de la función most_similar de Gensim para encontrar palabras que se relacionan más estrechamente con ciertas palabras de entrada. Esto permite evaluar la calidad de los embeddings generados.
+Ensayo del modelo utilizando most_similar: Se explora el uso de la función most_similar de Gensim para encontrar palabras que se relacionan más estrechamente con ciertas palabras de entrada. Esto permite evaluar la calidad de los embeddings generados. También se analiza las menos relacionadas.
 
 Visualización de agrupación de vectores: Se presenta la visualización de grupos de vectores relacionados entre sí. Esta visualización puede ayudar a entender cómo las palabras están distribuidas en el espacio vectorial.
 
-Realización de pruebas de analogía con embeddings: Se muestran ejemplos de pruebas de analogía utilizando los embeddings generados. Estas pruebas evalúan la capacidad del modelo para capturar relaciones semánticas entre palabras.
+Realización de pruebas de analogía con embeddings: Se muestran ejemplos de pruebas de analogía utilizando los embeddings generados. Estas pruebas evalúan la capacidad del modelo para capturar relaciones entre palabras.
 
 En resumen, en este ejercicio se explora la creación y el uso de embeddings personalizados utilizando Gensim. Se cubren aspectos como el preprocesamiento de datos, la generación de vectores con Word2Vec y la evaluación de los resultados obtenidos. Durante del desarrollo se imprimen vectores generados y listas de vocabularios y al final trata de mostrarse un mapa donde se distribuyen, agrupan y ordenan las palabras mas relacionadas entre si.
 
@@ -66,7 +66,7 @@ Preprocesamiento de datos y Word2Vec: Se realiza un preprocesamiento de los dato
 
 División de secuencias de texto y One-Hot Encoding: Las secuencias de texto se dividen en segmentos de entrada y palabras objetivo. Luego, se emplea One-Hot Encoding para convertir las palabras objetivo en un formato adecuado para el aprendizaje automático.
 
-Entrenamiento de un modelo con Keras: Se construye y entrena un modelo utilizando la biblioteca Keras. Este modelo incluye capas de Embedding, LSTM y capas densas, lo que le permite aprender patrones en las secuencias de texto y predecir la próxima palabra.
+Entrenamiento de un modelo con Keras: Se construye y entrena un modelo utilizando la biblioteca Keras. Este modelo incluye capas de Embedding, LSTM y capas densas, lo que le permite aprender patrones en las secuencias de texto e intentar predecir la siguiente palabra.
 
 Predicción de la próxima palabra: Se muestra cómo el modelo entrenado puede utilizarse para predecir la siguiente palabra en una secuencia de texto.
 
