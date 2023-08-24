@@ -4,12 +4,12 @@ Este repositorio contiene los ejercicios a presentar en la materia de PNL de la 
 
 # Links de colab
 
-[Ejercicio 1](https://colab.research.google.com/drive/1Y89lRej6yE_cLehmEi2S71Hzcw8fl0sm?usp=sharing)
-[Ejercicio 2](https://colab.research.google.com/drive/1NKS-p5YuOdp0ZUpa_I2jcNOdwzMKCGpd?usp=sharing)
-[Ejercicio 3](https://colab.research.google.com/drive/1AWGBzaPOgt2LyH-BdO72xmmhOKwfmJTL?usp=sharing)
-[Ejercicio 4](https://colab.research.google.com/drive/1n0E5oT7s7T-iKqJf9bV_Ym73Ig3oYawI?usp=sharing)
-[Ejercicio 5](https://colab.research.google.com/drive/1_ABLEyBYb9LLSxkHdo0YJ-hGcXK3InZO?usp=sharing)
-[Ejercicio 6](https://colab.research.google.com/drive/10X73DPEYh190hei90ZYF0g9Gel--Jk5M?usp=sharing)
+- [Ejercicio 1](https://colab.research.google.com/drive/1Y89lRej6yE_cLehmEi2S71Hzcw8fl0sm?usp=sharing)
+- [Ejercicio 2](https://colab.research.google.com/drive/1NKS-p5YuOdp0ZUpa_I2jcNOdwzMKCGpd?usp=sharing)
+- [Ejercicio 3](https://colab.research.google.com/drive/1AWGBzaPOgt2LyH-BdO72xmmhOKwfmJTL?usp=sharing)
+- [Ejercicio 4](https://colab.research.google.com/drive/1n0E5oT7s7T-iKqJf9bV_Ym73Ig3oYawI?usp=sharing)
+- [Ejercicio 5](https://colab.research.google.com/drive/1_ABLEyBYb9LLSxkHdo0YJ-hGcXK3InZO?usp=sharing)
+- [Ejercicio 6](https://colab.research.google.com/drive/10X73DPEYh190hei90ZYF0g9Gel--Jk5M?usp=sharing)
 
 ## Ejercicio 1
 
@@ -28,9 +28,9 @@ Se realizó una funcion que reciba el corpus y el índice de un documento y devu
 
 ## Ejercicio 2
 
-En este módulo, se desarrolla un bot sencillo diseñado para responder preguntas relacionadas con enfermedades médicas leves. Además de brindar respuestas a estas preguntas, se abordan una serie de conceptos clave en el procesamiento de lenguaje natural y el aprendizaje automático. A continuación, se resumen los temas tratados en este ejercicio:
+En este módulo, se desarrolla un bot sencillo diseñado para tener una conversación ficticia con una entidad. Se trata de construir un esquema de conversacion simple, natural y completo, para ello se abordan una serie de conceptos clave en el procesamiento de lenguaje natural y el aprendizaje automático. A continuación, se resumen los temas tratados en este ejercicio:
 
-Desarrollo de un diccionario de entrada en formato JSON: Se implementa la creación y gestión de un diccionario en formato JSON. Este diccionario almacena preguntas y respuestas relacionadas con enfermedades médicas leves, permitiendo al bot ofrecer información pertinente.
+Desarrollo de un diccionario de entrada en formato JSON: Se implementa la creación y gestión de un diccionario en formato JSON. Este diccionario almacena preguntas y respuestas relacionadas con la vida cotidiana entre otras de caracter general
 
 Preprocesamiento de datos utilizando Spacy: Se emplea la biblioteca Spacy para realizar operaciones de preprocesamiento en el texto, como la tokenización y lematización. Esto permite dividir el texto en unidades más pequeñas y reducir las palabras a su forma base.
 
@@ -40,11 +40,11 @@ Desarrollo de un modelo DNN con Keras: Se crea un modelo de red neuronal profund
 
 Resultados del entrenamiento de la red neuronal: Se muestra una imagen que presenta los resultados obtenidos durante el proceso de entrenamiento de la red neuronal. Esto incluye métricas de evaluación y gráficos que ilustran el rendimiento del modelo a medida que se entrena.
 
-En resumen, este ejercicio se enfoca en la implementación de un bot capaz de responder preguntas sobre enfermedades médicas leves, mientras que también se abordan aspectos fundamentales del procesamiento de lenguaje natural y la construcción de modelos de aprendizaje automático.
+En resumen, este ejercicio se enfoca en la implementación de un bot capaz de simular a un usuario una conversación o suerte de ping pong de preguntas y respuestas.
 
 ## Ejercicio 3
 
-En esta sección, se explora la creación de embeddings personalizados utilizando la biblioteca Gensim. Los embeddings se generan a partir de un corpus extraído del primer volumen del libro "General Anatomy applied to physiology and medicine" de Xavier Bichat, disponible en la página de Project Gutenberg. A continuación, se resumen los conceptos clave abordados en este ejercicio:
+En esta sección, se explora la creación de embeddings personalizados utilizando la biblioteca Gensim. Los embeddings se generan a partir de un corpus extraído del The Project Gutenberg eBook of The Time Machine, by H. G. Wells. A continuación, se resumen los conceptos clave abordados en este ejercicio:
 
 Preprocesamiento de datos: Se realiza un proceso de preprocesamiento en el corpus de texto, que incluye operaciones como la limpieza y tokenización del texto.
 
@@ -56,11 +56,11 @@ Visualización de agrupación de vectores: Se presenta la visualización de grup
 
 Realización de pruebas de analogía con embeddings: Se muestran ejemplos de pruebas de analogía utilizando los embeddings generados. Estas pruebas evalúan la capacidad del modelo para capturar relaciones semánticas entre palabras.
 
-En resumen, en este ejercicio se explora la creación y el uso de embeddings personalizados utilizando Gensim. Se cubren aspectos como el preprocesamiento de datos, la generación de vectores con Word2Vec y la evaluación de los resultados obtenidos.
+En resumen, en este ejercicio se explora la creación y el uso de embeddings personalizados utilizando Gensim. Se cubren aspectos como el preprocesamiento de datos, la generación de vectores con Word2Vec y la evaluación de los resultados obtenidos. Durante del desarrollo se imprimen vectores generados y listas de vocabularios y al final trata de mostrarse un mapa donde se distribuyen, agrupan y ordenan las palabras mas relacionadas entre si.
 
 ## Ejercicio 4
 
-Este módulo se centra en la tarea de predicción de la próxima palabra en una secuencia de texto utilizando un corpus del libro "General Anatomy applied to physiology and medicine" de Xavier Bichat. El ejercicio abarca los siguientes puntos clave:
+Este módulo se centra en la tarea de predicción de la próxima palabra en una secuencia de texto utilizando un corpus del The Project Gutenberg eBook of The Time Machine, by H. G. Wells. El ejercicio abarca los siguientes puntos clave:
 
 Preprocesamiento de datos y Word2Vec: Se realiza un preprocesamiento de los datos, incluyendo la tokenización y el uso de Word2Vec para representar las palabras como vectores.
 
@@ -72,7 +72,7 @@ Predicción de la próxima palabra: Se muestra cómo el modelo entrenado puede u
 
 Generación de secuencias nuevas: Se demuestra cómo el modelo puede generar secuencias nuevas a partir de secuencias iniciales, lo que permite que el modelo "escriba" texto por sí mismo.
 
-En resumen, este ejercicio se enfoca en la predicción de la próxima palabra en secuencias de texto. Se abordan aspectos como el preprocesamiento de datos, la construcción de modelos LSTM con Keras y la generación de secuencias de texto.
+En resumen, este ejercicio se enfoca en la predicción de la próxima palabra en secuencias de texto. Se abordan aspectos como el preprocesamiento de datos, la construcción de modelos LSTM con Keras y la generación de secuencias de texto. Se adelanta que éste modelo no obtuvo un buen desempeño y requiere de mas trabajo, otra estrategia de predicción o la alimentación de mas datos.
 
 ## Ejercicio 5
 
@@ -90,7 +90,7 @@ En resumen, este ejercicio se centra en la evaluación de críticas de comprador
 
 ## Ejercicio 6
 
-En esta sección final, se aborda la creación de un bot capaz de mantener conversaciones de preguntas y respuestas (Q&A) con los usuarios. Esto se logra utilizando datos del desafío ConvAI2 (Conversational Intelligence Challenge 2), que contiene conversaciones en inglés. Los siguientes temas son tratados en este ejercicio:
+En esta sección final, se aborda la creación de un bot capaz de mantener conversaciones de preguntas y respuestas (Q&A) con los usuarios. Distinto a lo abordado en ejercicios anteriores, aqui se trata de generar la conversación sin una especificación o formato previo como fue el caso anterior de implementar preguntas y respuestas en formato JSON. Aquí se busca lograr esto utilizando datos del desafío ConvAI2 (Conversational Intelligence Challenge 2), que contiene conversaciones en inglés. Los siguientes temas son tratados en este ejercicio:
 
 Preprocesamiento de datos: Se realiza un proceso de preprocesamiento para obtener información esencial, como la representación numérica de las palabras y la longitud máxima de las secuencias.
 
