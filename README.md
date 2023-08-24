@@ -11,6 +11,11 @@ Este repositorio contiene los ejercicios a presentar en la materia de PNL de la 
 - [Ejercicio 5](https://colab.research.google.com/drive/1_ABLEyBYb9LLSxkHdo0YJ-hGcXK3InZO?usp=sharing)
 - [Ejercicio 6](https://colab.research.google.com/drive/10X73DPEYh190hei90ZYF0g9Gel--Jk5M?usp=sharing)
 
+## Alumno
+
+Christian Canaan Castro Botek
+CEIA
+
 ## Ejercicio 1
 
 En este ejercicio se implementa la vectorizacion de documentos (Word2Vect) utilizando la libreria NumPy. 
